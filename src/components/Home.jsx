@@ -7,11 +7,11 @@ const Home = () => {
   return (
     <div
       name="home"
-      className="h-screen pb-4 w-full bg-gradient-to-br from-[#124e66] to-[#124e66]"
+      className="h-fit sm:h-screen pb-4 sm:pb-4 w-full bg-gradient-to-br from-[#124e66] to-[#124e66]"
     >
-      <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row ">
-        <div className="flex flex-col justify-center h-full">
-          <h2 className="text-4xl font-bold text-white sm:text-7xl ">
+      <div className="max-w-screen-lg pt-[100px] items-center sm:items-start mx-auto flex flex-col sm:pt-40 sm:h-full px-4 sm:flex-row ">
+        <div className="justify-center h-full sm:mt-12">
+          <h2 className="text-4xl align-text-bottom font-bold text-white sm:text-7xl ">
             I'm a Full Stack Developer
           </h2>
           <p className="text-white py-4 max-w-md text-lg">
@@ -36,7 +36,7 @@ const Home = () => {
           <img
             src={HeroImage}
             alt="profilePicture"
-            className="rounded-3xl mx-auto w-2/3 md:w-full"
+            className="rounded-3xl mt-10 mx-auto w-2/3 md:w-full"
           />
         </div>
       </div>

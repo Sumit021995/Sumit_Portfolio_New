@@ -51,23 +51,23 @@ const Portfolio = () => {
   return (
     <div
       name="portfolio"
-      className="sm:px-2 h-screen w-full py-10 border-spacing-10 bg-gradient-to-br from-[#124e66] to-[#124e66]"
+      className="sm:px-2 h-fit sm:h-screen w-full  sm:py-16 flex flex-col bg-gradient-to-br from-[#124e66] to-[#124e66]"
     >
-      <div className="max-w-screen-lg px-4 mx-auto flex flex-col justify-center w-full h-full text-white max-md:pt-[400px]">
-        <div className="pb-4">
+      <div className="max-w-screen-lg px-4 mx-auto w-full h-full text-white max-md:pt-[30px]">
+        <div className="pb-4 sm:pt-0">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             Portfolio
           </p>
-          <p className="p-4">Check out some of my work right here.</p>
+          <p className="py-2">Check out some of my work right here.</p>
         </div>
 
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 px-12 sm:px-0">
           {portfolios.map(({ id, src,demo,code }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
                 alt="ProjectThumbnail"
-                className="rounded-md duration-200 hover:scale-85"
+                className="rounded-md duration-200 hover:scale-75"
               />
               <div className="flex items-center justify-center">
               <a href={demo} target="_blank" rel="noreferrer">
