@@ -13,8 +13,8 @@ const Contact = () => {
             <form action="https://getform.io/f/lbjkrgoa" method="POST" className="flex flex-col w-full md:w-1/2">
                 <input type="text" name="name" placeholder="Enter your name:" className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"/>
                 <input type="text" name="email" placeholder="Enter your email:" className="my-4 p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"/>
-                <textarea name="message" rows="6" className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none" placeholder="Enter your message"></textarea>
-                <button className="text-white bg-[#41BF61] px-6 py-3 mt-10 mx-auto flex items-center rounded-md hover:scale-110 duration-300">Submit</button>
+                <textarea name="message" rows="6" className="p-2 mb-8 bg-transparent border-2 rounded-md text-white focus:outline-none" placeholder="Enter your message"></textarea>
+                <button className="text-white bg-[#41BF61] px-6 py-2 mx-auto flex items-center rounded-md hover:scale-110 duration-300">Submit</button>
             </form>
         </div>
       </div>
