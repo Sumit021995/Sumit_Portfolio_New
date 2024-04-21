@@ -3,7 +3,7 @@ import flashcard from "../assets/portfolio/flashcard.jpg";
 import currencyexchange from "../assets/portfolio/currencyexchange.jpg";
 import passwordgenerator from '../assets/portfolio/passwordgenerator.jpg';
 import bookmyshow from '../assets/portfolio/bookmyshow.jpeg'
-import plannerapp from '../assets/portfolio/plannerapp.jpg'
+import plannerapp from '../assets/portfolio/Plannerapp.JPG'
 import reactrouter from '../assets/portfolio/reactRouterApp.JPG'
 
 
