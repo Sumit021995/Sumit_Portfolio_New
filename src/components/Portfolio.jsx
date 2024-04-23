@@ -2,8 +2,8 @@ import React from "react";
 import flashcard from "../assets/portfolio/flashcard.jpg";
 import currencyexchange from "../assets/portfolio/currencyexchange.jpg";
 import passwordgenerator from '../assets/portfolio/passwordgenerator.jpg';
-import bookmyshow from '../assets/portfolio/bookmyshow.jpeg'
-import plannerapp from '../assets/portfolio/Plannerapp.JPG'
+import todocontext from '../assets/portfolio/todocontext.jpg'
+import themechanger from '../assets/portfolio/themechanger.jpg'
 import reactrouter from '../assets/portfolio/reactRouterApp.JPG'
 
 
@@ -30,15 +30,15 @@ const Portfolio = () => {
     },
     {
       id: 4,
-      src: bookmyshow,
-      demo: "https://github.com/Sumit021995/BookMyShow-Project",
-      code: "https://github.com/Sumit021995/BookMyShow-Project"
+      src: todocontext,
+      demo: "https://sumit021995.github.io/TodoContextLocalStorage/",
+      code: "https://github.com/Sumit021995/TodoContextLocalStorage"
     },
     {
       id: 5,
-      src: plannerapp,
-      demo: "https://sumit1-planner-app.netlify.app/",
-      code: "https://github.com/Sumit021995/planner-app"
+      src: themechanger,
+      demo: "https://sumit021995.github.io/ThemeSwitcher",
+      code: "https://github.com/Sumit021995/ThemeSwitcher"
     },
     {
       id: 6,
