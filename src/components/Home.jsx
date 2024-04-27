@@ -7,10 +7,10 @@ const Home = () => {
   return (
     <div
       name="home"
-      className="h-fit sm:h-screen pb-4 sm:pb-4 w-full bg-gradient-to-br from-[#124e66] to-[#124e66]"
+      className="h-fit sm:h-fit  pb-4 sm:pb-4 w-full bg-gradient-to-br from-[#124e66] to-[#124e66]"
     >
-      <div className="max-w-screen-lg pt-[100px] items-center sm:items-start mx-auto flex flex-col sm:pt-40 sm:h-full px-4 sm:flex-row ">
-        <div className="justify-center h-full sm:mt-12">
+      <div className="max-w-screen-lg pt-[100px] items-center sm:items-start mx-auto flex flex-col lg:pt-32 sm:pt-20  px-4 sm:flex-row ">
+        <div className="justify-center h-full sm:mt-8 lg:mt-12">
           <h2 className="text-4xl align-text-bottom font-bold text-white sm:text-7xl ">
             I'm a Full Stack Developer
           </h2>

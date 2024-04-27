@@ -3,12 +3,12 @@ import React from "react";
 const About = () => {
   return (
 
-    <div name="about" className="sm:h-screen h-[650px] flex flex-wrap sm:flex-nowrap m-0 flex-col w-full bg-gradient-to-bl from-[#124e66] to-[#124e66]">
-      <div className="max-w-screen-lg  h-fit pb-15 sm:pb-0 mx-auto px-4 flex flex-wrap sm:flex-nowrap flex-col sm:justify-center w-full sm:pt-20 sm:h-full text-white max-md:pt-[50px]">
+    <div name="about" className="sm:h-fit h-fit flex pt-16 sm:pt-24 flex-wrap sm:flex-nowrap sm:items-center flex-col w-full bg-gradient-to-bl from-[#124e66] to-[#124e66]">
+      <div className="max-w-screen-lg h-fit pb-15 sm:pb-10  mx-auto px-4 flex flex-wrap sm:flex-nowrap flex-col sm:justify-center w-full  sm:h-fit text-white max-md:pt-[50px]">
         <div className="pb-5 sm:justify-items-center">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">About</p>
         </div>
-        <div className="bg-gray-900 w-full sm:h-screen max-h-700px rounded-lg overflow-y-auto sm:px-2">
+        <div className="bg-gray-900 w-full sm:h-fit max-h-700px rounded-lg overflow-y-auto sm:px-2">
           <div className="flex p-1 gap-1">
             <div className="circle">
               <span className="bg-red-500 inline-block center w-3 h-3 rounded-full"></span>
@@ -21,7 +21,7 @@ const About = () => {
             </div>
           </div>
           <div className="text-white px-4">
-            <p className="text-sm mt-5 sm:text-xl">
+            <p className="text-sm mt-3 sm:mt-4 sm:text-xl">
               Hello Everyone! This is "Sumit Saurav". I am an aspiring Full Stack Developer, especially a "MERN Stack Developer".
             </p>
             <br />
