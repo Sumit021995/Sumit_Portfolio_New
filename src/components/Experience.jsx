@@ -5,14 +5,14 @@ import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
 import java from "../assets/java.png";
 import reactImage from "../assets/react.png";
-// import github from "../assets/github.png"/;
+import github from "../assets/github.png"/;
 import tailwind from "../assets/tailwind.png";
 import mongodb from "../assets/mongodb.png";
 import express from "../assets/expressjs.png";
 import node from "../assets/nodejs.png";
-import selenium from "../assets/selenium.png";
+import selenium from "../assets/selenium1.png";
 import oracle from "../assets/oracle.png";
-import agile from "../assets/agile.png";
+// import agile from "../assets/agile.png";
 
 const Experience = () => {
   const techs = [
@@ -73,19 +73,19 @@ const Experience = () => {
     {
       id: 10,
       src: selenium,
-      title: "selenium",
-      style: "shadow-black-500",
+      title: "Java Selenium",
+      style: "shadow-green-500",
     },
     {
       id: 11,
-      src: agile,
-      title: "agile",
+      src: github,
+      title: "Github",
       style: "shadow-white-500",
     },
     {
       id: 12,
       src: oracle,
-      title: "oracle",
+      title: "SQL Plus",
       style: "shadow-green-500",
     },
   ];
