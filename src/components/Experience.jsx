@@ -5,7 +5,7 @@ import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
 import java from "../assets/java.png";
 import reactImage from "../assets/react.png";
-import github from "../assets/github.png"/;
+import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
 import mongodb from "../assets/mongodb.png";
 import express from "../assets/expressjs.png";
