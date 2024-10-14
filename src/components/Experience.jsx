@@ -10,6 +10,9 @@ import tailwind from "../assets/tailwind.png";
 import mongodb from "../assets/mongodb.png";
 import express from "../assets/expressjs.png";
 import node from "../assets/nodejs.png";
+import selenium from "../assets/selenium.png";
+import oracle from "../assets/oracle.png";
+import agile from "../assets/agile.png";
 
 const Experience = () => {
   const techs = [
@@ -66,6 +69,24 @@ const Experience = () => {
       src: tailwind,
       title: "TailwindCSS",
       style: "shadow-sky-400",
+    },
+    {
+      id: 10,
+      src: selenium,
+      title: "selenium",
+      style: "shadow-black-500",
+    },
+    {
+      id: 11,
+      src: agile,
+      title: "agile",
+      style: "shadow-white-500",
+    },
+    {
+      id: 12,
+      src: oracle,
+      title: "oracle",
+      style: "shadow-green-500",
     },
   ];
 
