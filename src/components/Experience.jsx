@@ -7,11 +7,11 @@ import java from "../assets/java.png";
 import reactImage from "../assets/react.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
-import mongodb from "../assets/mongodb.png";
+// import mongodb from "../assets/mongodb.png";
 import express from "../assets/expressjs.png";
 import node from "../assets/nodejs.png";
-import selenium from "../assets/selenium1.png";
-import oracle from "../assets/oracle.png";
+// import selenium from "../assets/selenium1.png";
+// import oracle from "../assets/oracle.png";
 // import agile from "../assets/agile.png";
 
 const Experience = () => {
@@ -70,30 +70,12 @@ const Experience = () => {
       title: "TailwindCSS",
       style: "shadow-sky-400",
     },
-    {
-      id: 10,
-      src: selenium,
-      title: "Java Selenium",
-      style: "shadow-green-500",
-    },
-    {
-      id: 11,
-      src: github,
-      title: "Github",
-      style: "shadow-gray-500",
-    },
-    {
-      id: 12,
-      src: oracle,
-      title: "SQL Plus",
-      style: "shadow-green-500",
-    },
   ];
 
   return (
     <div
       name="experience"
-      className="sm:px-2 h-fit lg:h-screen sm:h-fit sm:pt-14 lg:pt-180
+      className="sm:px-2 h-fit lg:h-screen sm:h-fit sm:pt-14 lg:pt-24
        w-full  bg-gradient-to-bl from-[#124e66] to-[#124e66] max-md:overscroll-contain "
     >
       <div className="px-4 max-w-screen-lg mx-auto sm:py-10 lg:pt-100 py-10 flex flex-col sm:justify-center h-full text-white">
