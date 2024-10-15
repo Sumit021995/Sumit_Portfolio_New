@@ -75,7 +75,7 @@ const Experience = () => {
   return (
     <div
       name="experience"
-      className="sm:px-2 h-fit lg:h-screen sm:h-fit sm:pt-14 lg:pt-24
+      className="sm:px-2 h-fit lg:h-screen sm:h-fit sm:pt-14 lg:pt-34
        w-full  bg-gradient-to-bl from-[#124e66] to-[#124e66] max-md:overscroll-contain "
     >
       <div className="px-4 max-w-screen-lg mx-auto sm:py-10 py-10 flex flex-col sm:justify-center h-full text-white">
