@@ -22,15 +22,15 @@ const About = () => {
           </div>
           <div className="text-white px-4">
             <p className="text-sm mt-3 sm:mt-4 sm:text-xl">
-              Hello Everyone! This is "Sumit Saurav". I am an aspiring Full Stack Developer, especially a "MERN Stack Developer".
+              Hello Everyone! This is "Sumit Saurav". I am an aspiring Software Testing Engineer.
             </p>
             <br />
             <p className="text-sm sm:text-xl ">
-            A diligent Software Developer with a PGDCA Certificate from All India Computer Education Mission (AICEM), accredited by Hwetech System Pvt. Ltd. Proficient in various scripting languages, particularly JavaScript, and committed to delivering high-quality software solutions.
+            A diligent Software Testing Engineer with a PGDCA Certificate from All India Computer Education Mission (AICEM), accredited by Hwetech System Pvt. Ltd. Proficient in various scripting languages, particularly Java , JavaScript, and committed to delivering high-quality software solutions.
             </p>
             <br />
             <p className="text-sm sm:text-xl">
-              Eager to expand my skill set and embrace the challenges of the digital landscape, I am currently immersing myself in the intricacies of full-stack web development. The MERN stack—MongoDB, Express.js, React.js, and Node.js — captivates me with its versatility and potential to create dynamic, user-centric applications.
+              Eager to expand my skill set and embrace the challenges of the digital landscape, I am currently immersing myself in the intricacies of Software Testing .
             </p>
             <br />
             <p className="text-sm sm:text-xl mb-8">
