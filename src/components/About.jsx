@@ -22,7 +22,7 @@ const About = () => {
           </div>
           <div className="text-white px-4">
             <p className="text-sm mt-3 sm:mt-4 sm:text-xl">
-              Hello Everyone! This is "Sumit Saurav". I am an aspiring Software Testing Engineer.
+              Hello Everyone! This is "Sumit Saurav". I am an aspiring Software Test Engineer.
             </p>
             <br />
             <p className="text-sm sm:text-xl ">
