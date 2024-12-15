@@ -26,7 +26,7 @@ const About = () => {
             </p>
             <br />
             <p className="text-sm sm:text-xl ">
-            A diligent Software Testing Engineer with a PGDCA Certificate from All India Computer Education Mission (AICEM), accredited by Hwetech System Pvt. Ltd. Proficient in various scripting languages, particularly Java , JavaScript, and committed to delivering high-quality software solutions.
+            A diligent Software Test Engineer with a PGDCA Certificate from All India Computer Education Mission (AICEM), accredited by Hwetech System Pvt. Ltd. Proficient in various scripting languages, particularly Java , JavaScript, and committed to delivering high-quality software solutions.
             </p>
             <br />
             <p className="text-sm sm:text-xl">
