@@ -12,10 +12,10 @@ const Home = () => {
       <div className="max-w-screen-lg pt-[100px] items-center sm:items-start mx-auto flex flex-col lg:pt-32 sm:pt-20  px-4 sm:flex-row ">
         <div className="justify-center h-full sm:mt-8 lg:mt-12">
           <h2 className="text-4xl align-text-bottom font-bold text-white sm:text-7xl ">
-            I'm a Full Stack Developer
+            I'm a Software Test Engineer
           </h2>
           <p className="text-white py-4 max-w-md text-lg">
-            ( Specialized In MERN Stack Development )
+            ( Specialized In Java , Selenium(Java) )
           </p>
 
           <div>
