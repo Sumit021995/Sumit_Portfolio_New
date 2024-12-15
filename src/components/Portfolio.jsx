@@ -51,7 +51,7 @@ const Portfolio = () => {
   return (
     <div
       name="portfolio"
-      className="lg:pb-60 sm:px-2 lg:pb-80 h-fit sm:h-fit lg:h-screen w-full pt-16 lg:pt-24 sm:pt-24 sm:pb-24 flex flex-col bg-gradient-to-br from-[#124e66] to-[#124e66]"
+      className="sm:px-2 lg:pb-80 h-fit sm:h-fit lg:h-screen w-full pt-16 lg:pt-24 sm:pt-24 sm:pb-24 flex flex-col bg-gradient-to-br from-[#124e66] to-[#124e66]"
     >
       <div className="max-w-screen-lg px-4 mx-auto w-full h-full text-white max-md:pt-[30px]">
         <div className="pb-4 sm:pt-0">
