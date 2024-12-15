@@ -6,13 +6,17 @@ import javascript from "../assets/javascript.png";
 import java from "../assets/java.png";
 import reactImage from "../assets/react.png";
 // import github from "../assets/github.png";
-import tailwind from "../assets/tailwind.png";
+// import tailwind from "../assets/tailwind.png";
 import mongodb from "../assets/mongodb.png";
-import express from "../assets/expressjs.png";
-import node from "../assets/nodejs.png";
-// import selenium from "../assets/selenium1.png";
+// import express from "../assets/expressjs.png";
+// import node from "../assets/nodejs.png";
+import selenium from "../assets/selenium.png";
 // import oracle from "../assets/oracle.png";
-// import agile from "../assets/agile.png";
+import agile from "../assets/agile.png";
+import testng from "../assets/testng.png";
+import restassured from "../assets/restassured.png";
+import postman from "../assets/postman.png";
+import jenkins from "../assets/jenkins.png";
 
 const Experience = () => {
   const techs = [
@@ -42,8 +46,8 @@ const Experience = () => {
     },
     {
       id: 5,
-      src: express,
-      title: "Express",
+      src: selenium,
+      title: "Selenium",
       style: "shadow-gray-500",
     },
     {
@@ -54,8 +58,8 @@ const Experience = () => {
     },
     {
       id: 7,
-      src: node,
-      title: "NodeJs",
+      src: agile,
+      title: "Agile",
       style: "shadow-green-500",
     },
     {
@@ -66,8 +70,26 @@ const Experience = () => {
     },
     {
       id: 9,
-      src: tailwind,
-      title: "TailwindCSS",
+      src: testng,
+      title: "TestNG",
+      style: "shadow-sky-400",
+    },
+    {
+      id: 10,
+      src: restassured,
+      title: "Rest-Assured",
+      style: "shadow-sky-400",
+    },
+    {
+      id: 11,
+      src: jenkins,
+      title: "Jenkins",
+      style: "shadow-sky-400",
+    },
+    {
+      id: 12,
+      src: postman,
+      title: "Postman",
       style: "shadow-sky-400",
     },
   ];
