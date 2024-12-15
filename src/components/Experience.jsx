@@ -48,7 +48,7 @@ const Experience = () => {
       id: 5,
       src: selenium,
       title: "Selenium",
-      style: "shadow-gray-500",
+      style: "#33ff33",
     },
     {
       id: 6,
@@ -60,7 +60,7 @@ const Experience = () => {
       id: 7,
       src: agile,
       title: "Agile",
-      style: "shadow-green-500",
+      style: "shadow-sky-400",
     },
     {
       id: 8,
@@ -78,19 +78,19 @@ const Experience = () => {
       id: 10,
       src: restassured,
       title: "Rest-Assured",
-      style: "shadow-sky-400",
+      style: "shadow-green-400",
     },
     {
       id: 11,
       src: jenkins,
       title: "Jenkins",
-      style: "shadow-sky-400",
+      style: "#ff0000",
     },
     {
       id: 12,
       src: postman,
       title: "Postman",
-      style: "shadow-sky-400",
+      style: "#ff751a",
     },
   ];
 
