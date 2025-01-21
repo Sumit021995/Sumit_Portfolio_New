@@ -1,10 +1,10 @@
 import React from 'react'
 import resumeicon from "../assets/resumeicon.png"
 import emailicon from "../assets/emailicon.png"
-// import facebookicon from "../assets/facebookicon.png"
+import facebookicon from "../assets/facebookicon.png"
 import githubicon from "../assets/githubicon.png"
 import linkedinicon from "../assets/linkedinicon.png"
-// import twitterxicon from "../assets/twitterxicon.png"
+import twitterxicon from "../assets/twitterxicon.png"
 
 const Footer = ()=> {
     return (
@@ -24,11 +24,11 @@ const Footer = ()=> {
                             <span className="sr-only">Resume</span>
                             
                         </a>
-                        /* <a href="https://twitter.com/SauravKaku">
+                        <a href="https://twitter.com/SauravKaku">
                         <img src={twitterxicon}  className='w-5 h-5' alt="twitterxicon"/>
                             <span className="sr-only">TwitterX</span>
                             
-                        </a> */
+                        </a>
                         <a href="mailto:sumitofficial021995@gmail.com">
                         <img src={emailicon} className='w-5 h-5' alt="email"/>
                         
@@ -44,11 +44,11 @@ const Footer = ()=> {
                         
                             <span className="sr-only">LinkedIn</span>
                         </a>
-                       /* <a href="https://www.facebook.com/scsauravkaku">
+                       <a href="https://www.facebook.com/scsauravkaku">
                         <img src={facebookicon} className='w-5 h-5' alt="facebookicon"/>
                         
                             <span className="sr-only">facebook</span>
-                        </a> */
+                        </a>
                     </div>
                 </div>
             </div>
